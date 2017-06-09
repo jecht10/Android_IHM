@@ -1,0 +1,29 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Julie Centre</string>
+    <string name="action_settings">Parametre</string>
+    <string name="action_search">Rechercher</string>
+    <string name="title_activity_drawer_layout">DrawerLayoutActivity</string>
+
+    <string name="open_drawer">Drawer ouvert</string>
+    <string name="close_drawer">Drawer ferme</string>
+
+    <string-array name="menu_items">
+        <item android:id="@+id/nouveautes_fragment">Nouveautes</item>
+        <item android:id="@+id/mes_preferences_fragments">Mes Preferences</item>
+        <item android:id="@+id/decouverte_fragment">Decouverte</item>
+        <item android:id="@+id/trafic_fragment">Trafic</item>
+    </string-array>
+
+    <string-array name="heure_reservation_str">Choisir une heure</string-array>
+    <string-array name="heure_reservation">
+        <item>9h-10h</item>
+        <item>10h-11h</item>
+        <item>11h-12h</item>
+        <item>13h-14h</item>
+        <item>14h-15h</item>
+        <item>15h-16h</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+</resources>

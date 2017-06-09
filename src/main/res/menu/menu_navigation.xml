@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home_black_24dp"/>
+        <item
+            android:id="@+id/nav_preference"
+            android:title="Mes Preferences"
+            android:icon="@drawable/ic_favorite_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_reservations"
+            android:title="Reservations"
+            android:icon="@drawable/ic_event_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_decouverte"
+            android:title="Decouverte"
+            android:icon="@drawable/ic_landscape_black_24dp"/>
+    </group>
+</menu>
